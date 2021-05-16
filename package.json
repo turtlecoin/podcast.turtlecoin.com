@@ -1,0 +1,60 @@
+{
+  "name": "@turtlecoin/podcast",
+  "version": "0.0.1",
+  "description": "TurtleCoin Podcast Feed Aggregator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "yarn style",
+    "style": "./node_modules/.bin/eslint src/**/*.ts",
+    "fix-style": "./node_modules/.bin/eslint --fix src/**/*.ts",
+    "prepublishOnly": "yarn build",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonlehmann/node-podcast-rss.git"
+  },
+  "keywords": [
+    "TurtleCoin",
+    "Podcast",
+    "Feed",
+    "Aggregator"
+  ],
+  "author": "The TurtleCoin Developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonlehmann/node-podcast-rss/issues"
+  },
+  "homepage": "https://github.com/brandonlehmann/node-podcast-rss#readme",
+  "dependencies": {
+    "@bitradius/webapp": "^0.0.2",
+    "@turtlepay/logger": "^0.0.5",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "podcast": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.3.0",
+    "@types/node-fetch": "^2.5.10",
+    "@types/podcast": "^1.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.4.0",
+    "ts-node": "^9.1.1",
+    "typedoc": "^0.20.36",
+    "typedoc-plugin-no-inherit": "^1.2.2",
+    "typescript": "^4.2.4"
+  }
+}

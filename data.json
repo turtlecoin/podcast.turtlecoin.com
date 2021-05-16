@@ -1,0 +1,51 @@
+{
+  "title": "TurtleCoin Podcast",
+  "site_url": "http://www.turtlecoin.lol",
+  "feed_url": "https://podcast.turtlecoin.com/feed.rss",
+  "image_url": "https://i.imgur.com/bkSbI4M.png",
+  "description": "TurtleCoin Cryptocurrency and general shenanigans",
+  "copyright": "2021 The TurtleCoin Developers",
+  "author": {
+    "name": "The TurtleCoin Developers",
+    "email": "podcast@turtlecoin.dev"
+  },
+  "explicit": true,
+  "items": [
+    {
+      "season": 1,
+      "episode": 0,
+      "title": "How did you hear about TurtleCoin?",
+      "url": "https://ipfs.io/ipfs/QmXsz4VSG3a9TdDtMXRd9qpxaFpPBkHzcq1aM1TQZtypF9",
+      "description": "This week, MetaPrinter ran a contest on the TRTL Reddit to see who had the best 'This is how I heard about TurtleCoin' story, with plenty of TRTL for the winners!",
+      "date": 1618718400,
+      "duration": 5997
+    },
+    {
+      "season": 1,
+      "episode": 1,
+      "title": "Decimals and Dusty Shells",
+      "url": "https://ipfs.io/ipfs/QmY1iVSWep8h4ZPyKWihZj2cuneccpT9utANC7zao4ujtZ",
+      "description": "Join us for a discussion about why TRTL has only 2 digits after the decimal and the 100,000:1 supply reduction.",
+      "date": 1620532800,
+      "duration": 6144
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "title": "Coin Burn",
+      "url": "https://ipfs.io/ipfs/QmYrewEf2nHSWAH4SazrwEz1EsQxuYYvB8ABg7LpDDXKBH",
+      "description": "Let's talk about coin burn!",
+      "date": 1620964800,
+      "duration": 5895
+    },
+    {
+      "season": 1,
+      "episode": 3,
+      "title": "v2 Community AMA",
+      "url": "https://ipfs.io/ipfs/QmcMawdrntob9SVqDnDCLetCJK2seuEBpMjaEcsiVLQekq",
+      "description": "We got a lot of questions and comments after the last episode, so this time around we consulted the community with guest TurtleTurtle.club",
+      "date": 1621051200,
+      "duration": 5383
+    }
+  ]
+}
