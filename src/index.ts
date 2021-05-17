@@ -64,7 +64,7 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
 };
 
 (async () => {
-    Logger.info('Fetching latest feed data');
+    Logger.info('Generating latest feed data');
 
     const feed = new Podcast({
         title: data.title,
@@ -125,7 +125,7 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
 
     const feed_rss = feed.buildXml(' ');
 
-    Logger.info('Fetched latest feed data');
+    Logger.info('Generated latest feed data');
 
     const [controller, app] = await WebApp.create(parseInt(process.env.PORT || '') || 80);
 
@@ -137,6 +137,10 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
         response.setHeader('Content-Type', 'application/rss+xml');
 
         return response.send(feed_rss);
+    });
+
+    app.get('/feed.json', (request, response) => {
+        return response.json(data);
     });
 
     app.use('/', controller.static_content(process.cwd() + '/public'));
