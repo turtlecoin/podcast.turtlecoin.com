@@ -46,6 +46,15 @@
       "description": "We got a lot of questions and comments after the last episode, so this time around we consulted the community with guest TurtleTurtle.club",
       "date": 1621051200,
       "duration": 5383
+    },
+    {
+      "season": 1,
+      "episode": 4,
+      "title": "Proof of Waste",
+      "url": "https://ipfs.io/ipfs/QmZNkJunw36x2SHvtAcYqk7zCYqVJiWtTqnR59rWZpMs5x",
+      "description": "Let's talk about fungibility and how it helps to avoid Proof of Waste",
+      "date": 1622301358,
+      "duration": 4333
     }
   ]
 }
