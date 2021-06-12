@@ -55,6 +55,15 @@
       "description": "Let's talk about fungibility and how it helps to avoid Proof of Waste",
       "date": 1622301358,
       "duration": 4333
+    },
+    {
+      "season": 1,
+      "episode": 5,
+      "title": "My Blockchain Is Smaller Than Yours",
+      "url": "https://ipfs.io/ipfs/QmTJaQwFtR2hS7U7aR2Ng7okMJnSdNCe2u9PPD4oxMEJte",
+      "description": "Join us today for a chat about the new pruning technology coming in TRTLv2 and a whole lot of other topics you might not understand!",
+      "date": 1622932990,
+      "duration": 4876
     }
   ]
 }
