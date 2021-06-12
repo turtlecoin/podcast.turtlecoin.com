@@ -1,0 +1,416 @@
+{
+  "Protocol": "LOUD",
+  "Version": 1,
+  "NetworkName": "The LOUD Podcast Network",
+  "NetworkDescription": "A network of LOUD syndicated podcasts",
+  "WebsiteURL": {
+    "URL": "https://readme.loud.so",
+    "Description": "The LOUD feed spec documentation link"
+  },
+  "FeedURL": {
+    "URL": "https://raw.githubusercontent.com/turtlecoin/podcast.turtlecoin.com/master/public/feed.loud",
+    "Description": "The LOUD Network feed"
+  },
+  "DateCreated": "2021-06-04",
+  "BannerURL": {
+    "URL": "https://user-images.githubusercontent.com/34389545/120880895-cc64fe80-c592-11eb-963f-068474c916da.jpg",
+    "Description": "Banner graphic for The LOUD Network"
+  },
+  "AvatarURL": {
+    "URL": "https://avatars.githubusercontent.com/u/85380723",
+    "Description": "Avatar graphic for The LOUD Network"
+  },
+  "FavIcoURL": {
+    "URL": "https://user-images.githubusercontent.com/34389545/121786753-9671dc80-cb87-11eb-8e76-aef2804e5b21.png",
+    "Description": "Favicon for The LOUD Network"
+  },
+  "Tags": [
+    "LOUD",
+    "Feed",
+    "Syndication"
+  ],
+  "FeedCredit": [
+    {
+      "Name": "RockSteadyTC",
+      "Role": "Creator",
+      "Links": [
+        {
+          "URL": "https://github.com/rocksteadytc",
+          "Description": "RockSteadyTC's profile page"
+        }
+      ]
+    },
+    {
+      "Name": "IBurnMyCD",
+      "Role": "Creator, Editor",
+      "Links": [
+        {
+          "URL": "https://github.com/brandonlehmann",
+          "Description": "IBurnMyCD's profile page"
+        }
+      ]
+    }
+  ],
+  "Shows": [
+    {
+      "ShowName": "The TurtleCoin Podcast",
+      "ShowDescription": "Discussing cryptocurrency, decentralization, privacy and best of all, TurtleCoin!",
+      "WebsiteURL": {
+        "URL": "https://turtlecoin.com",
+        "Description": "The TurtleCoin website link"
+      },
+      "DateCreated": "2021-06-01",
+      "BannerURL": {
+        "URL": "https://i.imgur.com/E678Fbp.jpg",
+        "Description": "Banner graphic for The TurtleCoin Podcast"
+      },
+      "AvatarURL": {
+        "URL": "https://avatars.githubusercontent.com/u/34389551",
+        "Description": "Avatar graphic for The TurtleCoin Podcast"
+      },
+      "FavIcoURL": {
+        "URL": "https://avatars.githubusercontent.com/u/34389551?s=64\u0026v=4",
+        "Description": "Favicon for The TurtleCoin Podcast"
+      },
+      "Tags": [
+        "TurtleCoin",
+        "Cryptocurrency",
+        "Privacy"
+      ],
+      "ShowCredit": [
+        {
+          "Name": "RockSteadyTC",
+          "Role": "Creator",
+          "Links": [
+            {
+              "URL": "https://github.com/rocksteadytc",
+              "Description": "RockSteadyTC's profile page"
+            }
+          ]
+        },
+        {
+          "Name": "IBurnMyCD",
+          "Role": "Creator, Editor",
+          "Links": [
+            {
+              "URL": "https://github.com/brandonlehmann",
+              "Description": "IBurnMyCD's profile page"
+            }
+          ]
+        }
+      ],
+      "Episodes": [
+        {
+          "SeriesNumber": 0,
+          "EpisodeName": "How did you hear about TurtleCoin",
+          "EpisodeDescription": "This was our first episode of the podcast, we didn't intend for it to be a podcast, but we had so much fun making it we decided to make podcasting one of the things we do. This one has some rough audio, but if you can stomache it, it's a good show.",
+          "WebsiteURL": {
+            "URL": "https://www.youtube.com/watch?v=0n9bjuEETlM",
+            "Description": "Link to this episode's video"
+          },
+          "ImageURL": {
+            "URL": "hhttps://avatars.githubusercontent.com/u/34389551",
+            "Description": "Episode art image thumbnail"
+          },
+          "AudioURL": [
+            {
+              "URL": "https://gateway.pinata.cloud/ipfs/QmXsz4VSG3a9TdDtMXRd9qpxaFpPBkHzcq1aM1TQZtypF9",
+              "Description": "High quality audio file, mp3"
+            }
+          ],
+          "DateCreated": "2021-05-16",
+          "DateUpdated": "2021-05-16",
+          "DurationSeconds": 5980,
+          "CitedURL": [
+            {
+              "URL": "https://youtube.com/turtlecoin",
+              "Description": "This is our YouTube channel, subscribe for more podcasts!"
+            }
+          ],
+          "TranscriptionURL": [],
+          "EpisodeCredit": [
+            {
+              "Name": "RockSteadyTC",
+              "Role": "Creator",
+              "Links": [
+                {
+                  "URL": "https://github.com/rocksteadytc",
+                  "Description": "RockSteadyTC's profile page"
+                }
+              ]
+            },
+            {
+              "Name": "IBurnMyCD",
+              "Role": "Creator, Editor",
+              "Links": [
+                {
+                  "URL": "https://github.com/brandonlehmann",
+                  "Description": "IBurnMyCD's profile page"
+                }
+              ]
+            }
+          ],
+          "Chapters": [
+            {
+              "StartTimeSeconds": 0,
+              "ChapterName": "Intro",
+              "ChapterDescription": "Finding our feet live on stream",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 270,
+              "ChapterName": "Metaprinter",
+              "ChapterDescription": "Metaprinters entrance into mining and turtlecoin",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 580,
+              "ChapterName": "User stories",
+              "ChapterDescription": "Users describe how they entered the TurtleCoin community",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 1650,
+              "ChapterName": "Sektion F",
+              "ChapterDescription": "Or is it Sektion 8? :)",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 2790,
+              "ChapterName": "Blue whale",
+              "ChapterDescription": "The blue whales club and the early illuminati origins of TurtleCoin",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3300,
+              "ChapterName": "Raspberry pi mining",
+              "ChapterDescription": "Humble beginnings in mining TurtleCoin",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3850,
+              "ChapterName": "More shilling",
+              "ChapterDescription": "The same gambling site keeps coming up",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3917,
+              "ChapterName": "Forknote",
+              "ChapterDescription": "The humble beginnings of TurtleCoin as a forknote project.",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 5727,
+              "ChapterName": "The Truth",
+              "ChapterDescription": "The best story of them all",
+              "ChapterCredit": null
+            }
+          ]
+        },
+        {
+          "SeriesNumber": 1,
+          "EpisodeName": "Decimals and Dusty Shells",
+          "EpisodeDescription": "A question we get a lot pertains to the 2 digits after the decimal point, and even more now since in v2 we have a supply reduction of 100,000:1. In this episode we address that question and more!",
+          "WebsiteURL": {
+            "URL": "https://www.youtube.com/watch?v=fRRg_vmfchI",
+            "Description": "Link to this episode's video"
+          },
+          "ImageURL": {
+            "URL": "hhttps://avatars.githubusercontent.com/u/34389551",
+            "Description": "Episode art image thumbnail"
+          },
+          "AudioURL": [
+            {
+              "URL": "https://gateway.pinata.cloud/ipfs/QmY1iVSWep8h4ZPyKWihZj2cuneccpT9utANC7zao4ujtZ",
+              "Description": "High quality audio file, mp3"
+            }
+          ],
+          "DateCreated": "2021-05-17",
+          "DateUpdated": "2021-05-17",
+          "DurationSeconds": 6142,
+          "CitedURL": [
+            {
+              "URL": "https://youtube.com/turtlecoin",
+              "Description": "This is our YouTube channel, subscribe for more podcasts!"
+            }
+          ],
+          "TranscriptionURL": [],
+          "EpisodeCredit": [
+            {
+              "Name": "RockSteadyTC",
+              "Role": "Creator",
+              "Links": [
+                {
+                  "URL": "https://github.com/rocksteadytc",
+                  "Description": "RockSteadyTC's profile page"
+                }
+              ]
+            },
+            {
+              "Name": "IBurnMyCD",
+              "Role": "Creator, Editor",
+              "Links": [
+                {
+                  "URL": "https://github.com/brandonlehmann",
+                  "Description": "IBurnMyCD's profile page"
+                }
+              ]
+            }
+          ],
+          "Chapters": [
+            {
+              "StartTimeSeconds": 0,
+              "ChapterName": "Intro",
+              "ChapterDescription": "nobody responded when we asked who had questions about TurtleCoin",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 105,
+              "ChapterName": "decimals",
+              "ChapterDescription": "the two decimal points thing ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 325,
+              "ChapterName": "dust",
+              "ChapterDescription": "reducing dust through reduction in supply ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 422,
+              "ChapterName": "elders",
+              "ChapterDescription": "technical difficulties on the keyboard of ibmcd ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 463,
+              "ChapterName": "v1",
+              "ChapterDescription": "the cost of a realistic TRTL v1 transaction",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 690,
+              "ChapterName": "microtrashin'",
+              "ChapterDescription": "the infeasibility of microtransactions becomes apparent",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 750,
+              "ChapterName": "technical break",
+              "ChapterDescription": "this music got us a copyright claim by UMG ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 788,
+              "ChapterName": "we're back",
+              "ChapterDescription": "welcome back craig ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 805,
+              "ChapterName": "reduction",
+              "ChapterDescription": "100,000:1 swap rate",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 939,
+              "ChapterName": "Canti",
+              "ChapterDescription": "cantipixels and the pixel era",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 1380,
+              "ChapterName": "Mining",
+              "ChapterDescription": "the downfall of herominers",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 1570,
+              "ChapterName": "ASIC",
+              "ChapterDescription": "mining fairness, the fight against ASIC ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 1985,
+              "ChapterName": "Old Days",
+              "ChapterDescription": "the hard beginnings of the TRTL software",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 2452,
+              "ChapterName": "FAQ",
+              "ChapterDescription": "the v2 FAQ - but pronounced FACK apparently ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 2500,
+              "ChapterName": "Jerks",
+              "ChapterDescription": "speculators abound",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 2640,
+              "ChapterName": "commerce",
+              "ChapterDescription": "what is turtleshop",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 2880,
+              "ChapterName": "Boats",
+              "ChapterDescription": "Cisions boat that was purchased for 1 billion TurtleCoin",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3121,
+              "ChapterName": "Ideas",
+              "ChapterDescription": "OnlyTurtles",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3300,
+              "ChapterName": "shitcoins",
+              "ChapterDescription": "the rise of shitcoiners",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 3450,
+              "ChapterName": "derogold",
+              "ChapterDescription": "forks and fast blocks ",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 4020,
+              "ChapterName": "shitcoins, pt 2",
+              "ChapterDescription": "how to identify a shitcoiner",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 4605,
+              "ChapterName": "arcturus",
+              "ChapterDescription": "the issue with privacy",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 5380,
+              "ChapterName": "V3",
+              "ChapterDescription": "whats in store for v3?",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 5640,
+              "ChapterName": "Quantum",
+              "ChapterDescription": "the rise of quantum computers vs crypto",
+              "ChapterCredit": null
+            },
+            {
+              "StartTimeSeconds": 5970,
+              "ChapterName": "Fin",
+              "ChapterDescription": "wrapping it up ",
+              "ChapterCredit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
