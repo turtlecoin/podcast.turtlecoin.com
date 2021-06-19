@@ -3,7 +3,7 @@
   "site_url": "http://www.turtlecoin.lol",
   "feed_url": "https://podcast.turtlecoin.com/feed.rss",
   "image_url": "https://i.imgur.com/bkSbI4M.png",
-  "description": "TurtleCoin Cryptocurrency and general shenanigans",
+  "description": "The latest news about TurtleCoin, a safe, fun and easy to use cryptocurrency as well chats about software development, blockchain mechanics, and other general shenanigans",
   "copyright": "2021 The TurtleCoin Developers",
   "author": {
     "name": "The TurtleCoin Developers",
@@ -64,6 +64,15 @@
       "description": "Join us today for a chat about the new pruning technology coming in TRTLv2 and a whole lot of other topics you might not understand!",
       "date": 1622932990,
       "duration": 4876
+    },
+    {
+      "season": 1,
+      "episode": 6,
+      "title": "Shitcoin Forkers!",
+      "url": "https://ipfs.io/ipfs/QmRRJJzQurdxybq7t6xL47KrDnNozp1mU1UAgSyME55TSY",
+      "description": "Today we talk about open source licensing, shitcoin forkers, and the damage they do to the community. Peppered in is a bit about how v2 staking rewards work.",
+      "date": 1623995743,
+      "duration": 4582
     }
   ]
 }
