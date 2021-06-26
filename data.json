@@ -73,6 +73,15 @@
       "description": "Today we talk about open source licensing, shitcoin forkers, and the damage they do to the community. Peppered in is a bit about how v2 staking rewards work.",
       "date": 1623995743,
       "duration": 4582
+    },
+    {
+      "season": 1,
+      "episode": 7,
+      "title": "Shell Shopped",
+      "url": "https://ipfs.io/ipfs/QmaXSxdun2oPXZ3ahd3pzfVUkEhgE2VxaVD8epSUXdknKy",
+      "description": "This week we invited along a few guests: LowIQMonkey and TTC, who came on to talk about Shell Shop, a new e-commerce solution to set up your own store and sell things for TRTL easily using TurtlePay. TTC also joins us to give the TurtleCoin Mining State Of The Union.",
+      "date": 1624686237,
+      "duration": 4568
     }
   ]
 }
