@@ -91,6 +91,15 @@
       "description": "This week we bring you a development update, talk about the struggle of maintaining a large community, and bring in a new guest who found his way to TurtleTurtle.club and is helping out in a few places",
       "date": 1625930617,
       "duration": 5361
+    },
+    {
+      "season": 1,
+      "episode": 9,
+      "title": "From Zero To Blockchain",
+      "url": "https://ipfs.io/ipfs/QmdbNubqGxdJjjJzMdvxMZfzTi3tLCepYfmSGPELbXpBVS",
+      "description": "After a bit of a recording hiatus, we're back for a long talk about blockchain fundamentals including consensus mechanisms, transactions, incentivizing participation, account, keys, and chickens.",
+      "date": 1629568164,
+      "duration": 7168
     }
   ]
 }
