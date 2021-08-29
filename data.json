@@ -18,7 +18,9 @@
       "url": "https://ipfs.io/ipfs/QmXsz4VSG3a9TdDtMXRd9qpxaFpPBkHzcq1aM1TQZtypF9",
       "description": "This week, MetaPrinter ran a contest on the TRTL Reddit to see who had the best 'This is how I heard about TurtleCoin' story, with plenty of TRTL for the winners!",
       "date": 1618718400,
-      "duration": 5997
+      "duration": 5997,
+	  "type": "audio/mpeg",
+	  "size": 60396645
     },
     {
       "season": 1,
@@ -27,7 +29,9 @@
       "url": "https://ipfs.io/ipfs/QmY1iVSWep8h4ZPyKWihZj2cuneccpT9utANC7zao4ujtZ",
       "description": "Join us for a discussion about why TRTL has only 2 digits after the decimal and the 100,000:1 supply reduction.",
       "date": 1620532800,
-      "duration": 6144
+      "duration": 6144,
+	  "type": "audio/mpeg",
+	  "size": 98316288
     },
     {
       "season": 1,
@@ -36,7 +40,9 @@
       "url": "https://ipfs.io/ipfs/QmYrewEf2nHSWAH4SazrwEz1EsQxuYYvB8ABg7LpDDXKBH",
       "description": "Let's talk about coin burn!",
       "date": 1620964800,
-      "duration": 5895
+      "duration": 5895,
+	  "type": "audio/mpeg",
+	  "size": 94331968
     },
     {
       "season": 1,
@@ -45,7 +51,9 @@
       "url": "https://ipfs.io/ipfs/QmcMawdrntob9SVqDnDCLetCJK2seuEBpMjaEcsiVLQekq",
       "description": "We got a lot of questions and comments after the last episode, so this time around we consulted the community with guest TurtleTurtle.club",
       "date": 1621051200,
-      "duration": 5383
+      "duration": 5383,
+	  "type": "audio/mpeg",
+	  "size": 86142189
     },
     {
       "season": 1,
@@ -54,7 +62,9 @@
       "url": "https://ipfs.io/ipfs/QmZNkJunw36x2SHvtAcYqk7zCYqVJiWtTqnR59rWZpMs5x",
       "description": "Let's talk about fungibility and how it helps to avoid Proof of Waste",
       "date": 1622301358,
-      "duration": 4333
+      "duration": 4333,
+	  "type": "audio/mpeg",
+	  "size": 174066316
     },
     {
       "season": 1,
@@ -63,7 +73,9 @@
       "url": "https://ipfs.io/ipfs/QmTJaQwFtR2hS7U7aR2Ng7okMJnSdNCe2u9PPD4oxMEJte",
       "description": "Join us today for a chat about the new pruning technology coming in TRTLv2 and a whole lot of other topics you might not understand!",
       "date": 1622932990,
-      "duration": 4876
+      "duration": 4876,
+	  "type": "audio/mpeg",
+	  "size": 195077836
     },
     {
       "season": 1,
@@ -72,7 +84,9 @@
       "url": "https://ipfs.io/ipfs/QmRRJJzQurdxybq7t6xL47KrDnNozp1mU1UAgSyME55TSY",
       "description": "Today we talk about open source licensing, shitcoin forkers, and the damage they do to the community. Peppered in is a bit about how v2 staking rewards work.",
       "date": 1623995743,
-      "duration": 4582
+      "duration": 4582,
+	  "type": "audio/mpeg",
+	  "size": 183309196
     },
     {
       "season": 1,
@@ -81,7 +95,9 @@
       "url": "https://ipfs.io/ipfs/QmaXSxdun2oPXZ3ahd3pzfVUkEhgE2VxaVD8epSUXdknKy",
       "description": "This week we invited along a few guests: LowIQMonkey and TTC, who came on to talk about Shell Shop, a new e-commerce solution to set up your own store and sell things for TRTL easily using TurtlePay. TTC also joins us to give the TurtleCoin Mining State Of The Union.",
       "date": 1624686237,
-      "duration": 4568
+      "duration": 4568,
+	  "type": "audio/mpeg",
+	  "size": 185149516
     },
     {
       "season": 1,
@@ -90,7 +106,9 @@
       "url": "https://ipfs.io/ipfs/QmfRYvmcVFKAHy3cmxxqXhHZ3FEjaJ1eXn74vhJXyktLJM",
       "description": "This week we bring you a development update, talk about the struggle of maintaining a large community, and bring in a new guest who found his way to TurtleTurtle.club and is helping out in a few places",
       "date": 1625930617,
-      "duration": 5361
+      "duration": 5361,
+	  "type": "audio/mpeg",
+	  "size": 214459276
     },
     {
       "season": 1,
@@ -99,7 +117,9 @@
       "url": "https://ipfs.io/ipfs/QmdbNubqGxdJjjJzMdvxMZfzTi3tLCepYfmSGPELbXpBVS",
       "description": "After a bit of a recording hiatus, we're back for a long talk about blockchain fundamentals including consensus mechanisms, transactions, incentivizing participation, account, keys, and chickens.",
       "date": 1629568164,
-      "duration": 7168
+      "duration": 7168,
+	  "type": "audio/mpeg",
+	  "size": 286724236
     },
     {
       "season": 1,
@@ -108,7 +128,9 @@
       "url": "https://ipfs.io/ipfs/QmfV763TjnE2KpwiKPzbFqXtd1yf5bDtcDm3b81z9NsEsC",
       "description": "We're back again this week discussing a v2 development timeline update, the struggle of balancing priorities, and what that means for the community.",
       "date": 1630161821,
-      "duration": 2461
+      "duration": 2461,
+	  "type": "audio/mpeg",
+	  "size": 98466316
     }
   ]
 }

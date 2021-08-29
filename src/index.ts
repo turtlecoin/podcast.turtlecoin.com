@@ -4,7 +4,6 @@
 
 import * as Podcast from 'podcast';
 import WebApp from '@bitradius/webapp';
-import fetch from 'node-fetch';
 import { Logger } from '@turtlepay/logger';
 import * as dotenv from 'dotenv';
 import { createHmac } from 'crypto';
@@ -39,6 +38,8 @@ interface IFeedData {
     }
     explicit: boolean;
     items: IItem[];
+    size: number;
+    type: string;
 }
 
 const data: IFeedData = require('../data.json');
@@ -46,21 +47,6 @@ const data: IFeedData = require('../data.json');
 const generate_guid = (url: string): string => {
     return createHmac('sha256', url)
         .digest('hex');
-};
-
-const fetch_item_info = async (url: string): Promise<{type: string, size: number}> => {
-    const response = await fetch(url, {
-        method: 'HEAD'
-    });
-
-    if (!response.ok) {
-        throw new Error('Could not fetch information');
-    }
-
-    return {
-        type: response.headers.get('Content-Type') || 'audio/mpeg',
-        size: parseInt(response.headers.get('Content-Length') || '') || 0
-    };
 };
 
 (async () => {
@@ -96,12 +82,6 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
     });
 
     for (const item of data.items as IItem[]) {
-        const info = await fetch_item_info(item.url)
-            .catch(e => {
-                Logger.error('Could not fetch %s: %s', item.url, e.toString());
-
-                throw e;
-            });
         const guid = generate_guid(item.url + item.title);
 
         feed.addItem({
@@ -122,8 +102,8 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
             itunesSeason: item.season,
             enclosure: {
                 url: item.url + '?filename=' + guid + '.mp3',
-                type: info.type,
-                size: info.size
+                type: data.type,
+                size: data.size
             }
         });
     }
