@@ -96,7 +96,12 @@ const fetch_item_info = async (url: string): Promise<{type: string, size: number
     });
 
     for (const item of data.items as IItem[]) {
-        const info = await fetch_item_info(item.url);
+        const info = await fetch_item_info(item.url)
+            .catch(e => {
+                Logger.error('Could not fetch %s: %s', item.url, e.toString());
+
+                throw e;
+            });
         const guid = generate_guid(item.url + item.title);
 
         feed.addItem({
