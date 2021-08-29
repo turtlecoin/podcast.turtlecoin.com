@@ -100,6 +100,15 @@
       "description": "After a bit of a recording hiatus, we're back for a long talk about blockchain fundamentals including consensus mechanisms, transactions, incentivizing participation, account, keys, and chickens.",
       "date": 1629568164,
       "duration": 7168
+    },
+    {
+      "season": 1,
+      "episode": 10,
+      "title": "The Struggle is Real: Part 2",
+      "url": "https://ipfs.io/ipfs/QmfV763TjnE2KpwiKPzbFqXtd1yf5bDtcDm3b81z9NsEsC",
+      "description": "We're back again this week discussing a v2 development timeline update, the struggle of balancing priorities, and what that means for the community.",
+      "date": 1630161821,
+      "duration": 2461
     }
   ]
 }
